@@ -1449,9 +1449,6 @@ document.addEventListener("DOMContentLoaded", function () {
       anzhiyu.isHidden(document.getElementById("toggle-menu")) && mobileSidebarOpen && sidebarFn.close();
     });
 
-
-    anzhiyu.darkModeStatus();
-
     document.getElementById("menu-mask").addEventListener("click", e => {
       sidebarFn.close();
     });
